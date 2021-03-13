@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Livewire\Admin\Dashboard;
+use App\Http\Livewire\Auth\Login;
 use App\Http\Livewire\Blog;
 use App\Http\Livewire\Home;
 use App\Http\Livewire\Product;
@@ -18,14 +19,16 @@ use Illuminate\Support\Facades\Route;
 */
 
 
-Auth::routes();
+// Auth::routes();
 
 Route::get('/', Home::class)->name('home');
 Route::get('/products', Product::class);
 Route::get('/blog', Blog::class);
+Route::get('/login',Login::class)->name('login');
 
 Route::prefix('admin')->group(function () {
     Route::get('dashboard', Dashboard::class);
 });
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+

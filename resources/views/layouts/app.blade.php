@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Home 03</title>
+    <title>Coza Store</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-token" content="{{ csrf_token() }}">
@@ -79,7 +79,7 @@
                         </li>
 
                         <li class="p-b-13">
-                            <a href="#" class="stext-102 cl2 hov-cl1 trans-04">
+                        <a href="{{route('login')}}" class="stext-102 cl2 hov-cl1 trans-04">
                                 My Account
                             </a>
                         </li>
@@ -702,7 +702,7 @@
     @livewireScripts
     <script src="https://cdn.jsdelivr.net/gh/livewire/turbolinks@v0.1.x/dist/livewire-turbolinks.js"
         data-turbolinks-eval="false" data-turbo-eval="false"></script>
-   
+
 </body>
 
 </body>

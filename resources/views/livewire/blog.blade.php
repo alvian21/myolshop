@@ -1,7 +1,8 @@
-<section class="bg-img1 txt-center p-lr-15 p-tb-92" style="background-image: url('{{asset('assets/images/bg-02.jpg')}}');">
-		<h2 class="ltext-105 cl0 txt-center">
-			Blog
-		</h2>
+<section class="bg-img1 txt-center p-lr-15 p-tb-92"
+    style="background-image: url('{{asset('assets/images/bg-02.jpg')}}');">
+    <h2 class="ltext-105 cl0 txt-center">
+        Blog
+    </h2>
 </section>
 
 
@@ -13,7 +14,7 @@
                     <!-- item blog -->
                     <div class="p-b-63">
                         <a href="blog-detail.html" class="hov-img0 how-pos5-parent">
-                        <img src="{{asset('assets/images/blog-04.jpg')}}" alt="IMG-BLOG">
+                            <img src="{{asset('assets/images/blog-04.jpg')}}" alt="IMG-BLOG">
 
                             <div class="flex-col-c-m size-123 bg9 how-pos5">
                                 <span class="ltext-107 cl2 txt-center">
@@ -34,7 +35,8 @@
                             </h4>
 
                             <p class="stext-117 cl6">
-                                Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce eget dictum tortor. Donec dictum vitae sapien eu varius
+                                Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
+                                himenaeos. Fusce eget dictum tortor. Donec dictum vitae sapien eu varius
                             </p>
 
                             <div class="flex-w flex-sb-m p-t-18">
@@ -66,7 +68,7 @@
                     <!-- item blog -->
                     <div class="p-b-63">
                         <a href="blog-detail.html" class="hov-img0 how-pos5-parent">
-                        <img src="{{asset('assets/images/blog-05.jpg')}}" alt="IMG-BLOG">
+                            <img src="{{asset('assets/images/blog-05.jpg')}}" alt="IMG-BLOG">
 
                             <div class="flex-col-c-m size-123 bg9 how-pos5">
                                 <span class="ltext-107 cl2 txt-center">
@@ -87,7 +89,8 @@
                             </h4>
 
                             <p class="stext-117 cl6">
-                                Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce eget dictum tortor. Donec dictum vitae sapien eu varius
+                                Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
+                                himenaeos. Fusce eget dictum tortor. Donec dictum vitae sapien eu varius
                             </p>
 
                             <div class="flex-w flex-sb-m p-t-18">
@@ -119,7 +122,7 @@
                     <!-- item blog -->
                     <div class="p-b-63">
                         <a href="blog-detail.html" class="hov-img0 how-pos5-parent">
-                        <img src="{{asset('assets/images/blog-06.jpg')}}" alt="IMG-BLOG">
+                            <img src="{{asset('assets/images/blog-06.jpg')}}" alt="IMG-BLOG">
 
                             <div class="flex-col-c-m size-123 bg9 how-pos5">
                                 <span class="ltext-107 cl2 txt-center">
@@ -140,7 +143,8 @@
                             </h4>
 
                             <p class="stext-117 cl6">
-                                Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce eget dictum tortor. Donec dictum vitae sapien eu varius
+                                Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
+                                himenaeos. Fusce eget dictum tortor. Donec dictum vitae sapien eu varius
                             </p>
 
                             <div class="flex-w flex-sb-m p-t-18">
@@ -185,7 +189,8 @@
             <div class="col-md-4 col-lg-3 p-b-80">
                 <div class="side-menu">
                     <div class="bor17 of-hidden pos-relative">
-                        <input class="stext-103 cl2 plh4 size-116 p-l-28 p-r-55" type="text" name="search" placeholder="Search">
+                        <input class="stext-103 cl2 plh4 size-116 p-l-28 p-r-55" type="text" name="search"
+                            placeholder="Search">
 
                         <button class="flex-c-m size-122 ab-t-r fs-18 cl4 hov-cl1 trans-04">
                             <i class="zmdi zmdi-search"></i>
@@ -238,7 +243,7 @@
                         <ul>
                             <li class="flex-w flex-t p-b-30">
                                 <a href="#" class="wrao-pic-w size-214 hov-ovelay1 m-r-20">
-                                    <img src="images/product-min-01.jpg" alt="PRODUCT">
+                                    <img src="{{asset('assets/images/product-min-01.jpg')}}" alt="PRODUCT">
                                 </a>
 
                                 <div class="size-215 flex-col-t p-t-8">
@@ -254,7 +259,7 @@
 
                             <li class="flex-w flex-t p-b-30">
                                 <a href="#" class="wrao-pic-w size-214 hov-ovelay1 m-r-20">
-                                    <img src="images/product-min-02.jpg" alt="PRODUCT">
+                                    <img src="{{asset('assets/images/product-min-02.jpg')}}" alt="PRODUCT">
                                 </a>
 
                                 <div class="size-215 flex-col-t p-t-8">
@@ -270,7 +275,7 @@
 
                             <li class="flex-w flex-t p-b-30">
                                 <a href="#" class="wrao-pic-w size-214 hov-ovelay1 m-r-20">
-                                    <img src="images/product-min-03.jpg" alt="PRODUCT">
+                                    <img src="{{asset('assets/images/product-min-03.jpg')}}" alt="PRODUCT">
                                 </a>
 
                                 <div class="size-215 flex-col-t p-t-8">
@@ -331,7 +336,7 @@
                             <li class="p-b-7">
                                 <a href="#" class="flex-w flex-sb-m stext-115 cl6 hov-cl1 trans-04 p-tb-2">
                                     <span>
-                                        April  2018
+                                        April 2018
                                     </span>
 
                                     <span>
@@ -396,23 +401,28 @@
                         </h4>
 
                         <div class="flex-w m-r--5">
-                            <a href="#" class="flex-c-m stext-107 cl6 size-301 bor7 p-lr-15 hov-tag1 trans-04 m-r-5 m-b-5">
+                            <a href="#"
+                                class="flex-c-m stext-107 cl6 size-301 bor7 p-lr-15 hov-tag1 trans-04 m-r-5 m-b-5">
                                 Fashion
                             </a>
 
-                            <a href="#" class="flex-c-m stext-107 cl6 size-301 bor7 p-lr-15 hov-tag1 trans-04 m-r-5 m-b-5">
+                            <a href="#"
+                                class="flex-c-m stext-107 cl6 size-301 bor7 p-lr-15 hov-tag1 trans-04 m-r-5 m-b-5">
                                 Lifestyle
                             </a>
 
-                            <a href="#" class="flex-c-m stext-107 cl6 size-301 bor7 p-lr-15 hov-tag1 trans-04 m-r-5 m-b-5">
+                            <a href="#"
+                                class="flex-c-m stext-107 cl6 size-301 bor7 p-lr-15 hov-tag1 trans-04 m-r-5 m-b-5">
                                 Denim
                             </a>
 
-                            <a href="#" class="flex-c-m stext-107 cl6 size-301 bor7 p-lr-15 hov-tag1 trans-04 m-r-5 m-b-5">
+                            <a href="#"
+                                class="flex-c-m stext-107 cl6 size-301 bor7 p-lr-15 hov-tag1 trans-04 m-r-5 m-b-5">
                                 Streetstyle
                             </a>
 
-                            <a href="#" class="flex-c-m stext-107 cl6 size-301 bor7 p-lr-15 hov-tag1 trans-04 m-r-5 m-b-5">
+                            <a href="#"
+                                class="flex-c-m stext-107 cl6 size-301 bor7 p-lr-15 hov-tag1 trans-04 m-r-5 m-b-5">
                                 Crafts
                             </a>
                         </div>

@@ -27,11 +27,11 @@
                         </li>
 
                         <li>
-                            <a href="about.html">About</a>
+                            <a href="#">About</a>
                         </li>
 
                         <li>
-                            <a href="contact.html">Contact</a>
+                            <a href="#">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -107,11 +107,11 @@
             </li>
 
             <li>
-                <a href="about.html">About</a>
+                <a href="#">About</a>
             </li>
 
             <li>
-                <a href="contact.html">Contact</a>
+                <a href="#">Contact</a>
             </li>
         </ul>
     </div>
@@ -149,7 +149,7 @@
                         Help &amp; FAQs
                     </a>
 
-                    <a href="#" class="flex-c-m trans-04 p-lr-25">
+                    <a href="{{route('login')}}" class="flex-c-m trans-04 p-lr-25">
                         My Account
                     </a>
 
@@ -163,12 +163,12 @@
                 </div>
             </div>
         </div>
-        <div class="wrap-menu-desktop how-shadow1" >
+        <div class="wrap-menu-desktop how-shadow1">
             <nav class="limiter-menu-desktop container">
 
                 <!-- Logo desktop -->
                 <a href="#" class="logo">
-                <img src="{{asset('assets/images/icons/logo-01.png')}}" alt="IMG-LOGO">
+                    <img src="{{asset('assets/images/icons/logo-01.png')}}" alt="IMG-LOGO">
                 </a>
 
                 <!-- Menu desktop -->
@@ -187,11 +187,11 @@
                         </li>
 
                         <li>
-                            <a href="about.html">About</a>
+                            <a href="#">About</a>
                         </li>
 
                         <li>
-                            <a href="contact.html">Contact</a>
+                            <a href="#">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -202,11 +202,13 @@
                         <i class="zmdi zmdi-search"></i>
                     </div>
 
-                    <div class="icon-header-item cl2 hov-cl1 trans-04 p-l-22 p-r-11 icon-header-noti js-show-cart" data-notify="2">
+                    <div class="icon-header-item cl2 hov-cl1 trans-04 p-l-22 p-r-11 icon-header-noti js-show-cart"
+                        data-notify="2">
                         <i class="zmdi zmdi-shopping-cart"></i>
                     </div>
 
-                    <a href="#" class="icon-header-item cl2 hov-cl1 trans-04 p-l-22 p-r-11 icon-header-noti" data-notify="0">
+                    <a href="#" class="icon-header-item cl2 hov-cl1 trans-04 p-l-22 p-r-11 icon-header-noti"
+                        data-notify="0">
                         <i class="zmdi zmdi-favorite-outline"></i>
                     </a>
                 </div>
@@ -227,11 +229,13 @@
                 <i class="zmdi zmdi-search"></i>
             </div>
 
-            <div class="icon-header-item cl2 hov-cl1 trans-04 p-r-11 p-l-10 icon-header-noti js-show-cart" data-notify="2">
+            <div class="icon-header-item cl2 hov-cl1 trans-04 p-r-11 p-l-10 icon-header-noti js-show-cart"
+                data-notify="2">
                 <i class="zmdi zmdi-shopping-cart"></i>
             </div>
 
-            <a href="#" class="dis-block icon-header-item cl2 hov-cl1 trans-04 p-r-11 p-l-10 icon-header-noti" data-notify="0">
+            <a href="#" class="dis-block icon-header-item cl2 hov-cl1 trans-04 p-r-11 p-l-10 icon-header-noti"
+                data-notify="0">
                 <i class="zmdi zmdi-favorite-outline"></i>
             </a>
         </div>
@@ -260,7 +264,7 @@
                         Help &amp; FAQs
                     </a>
 
-                    <a href="#" class="flex-c-m p-lr-10 trans-04">
+                    <a href="{{route('login')}}" class="flex-c-m p-lr-10 trans-04">
                         My Account
                     </a>
 
@@ -289,11 +293,11 @@
             </li>
 
             <li>
-                <a href="about.html">About</a>
+                <a href="#">About</a>
             </li>
 
             <li>
-                <a href="contact.html">Contact</a>
+                <a href="#">Contact</a>
             </li>
         </ul>
     </div>
