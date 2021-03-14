@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Livewire\Admin\Dashboard;
+use App\Http\Livewire\Admin\Product as AdminProduct;
 use App\Http\Livewire\Auth\Login;
 use App\Http\Livewire\Blog;
 use App\Http\Livewire\Home;
@@ -28,6 +29,7 @@ Route::get('/login',Login::class)->name('login');
 
 Route::prefix('admin')->group(function () {
     Route::get('dashboard', Dashboard::class);
+    Route::get('product',AdminProduct::class)->name('admin.product');
 });
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

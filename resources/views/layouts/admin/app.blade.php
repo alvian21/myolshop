@@ -18,6 +18,10 @@
   <!-- Template CSS -->
   <link rel="stylesheet" href="{{asset('stisla/assets/css/style.css')}}">
   <link rel="stylesheet" href="{{asset('stisla/assets/css/components.css')}}">
+  <script src="{{ asset('js/app.js') }}" defer></script>
+  <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+
+  @livewireStyles
 </head>
 
 <body>
@@ -65,5 +69,9 @@
 
   <!-- Page Specific JS File -->
   <script src="{{asset('stisla/assets/js/page/index.js')}}"></script>
+  @livewireScripts
+  <script src="https://cdn.jsdelivr.net/gh/livewire/turbolinks@v0.1.x/dist/livewire-turbolinks.js"
+      data-turbolinks-eval="false" data-turbo-eval="false"></script>
+
 </body>
 </html>
