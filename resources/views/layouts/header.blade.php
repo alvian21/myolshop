@@ -59,7 +59,7 @@
     <div class="wrap-header-mobile">
         <!-- Logo moblie -->
         <div class="logo-mobile">
-            <a href="index.html"><img src="{{asset('assets/images/icons/logo-01.png')}}" alt="IMG-LOGO"></a>
+            <a href="/"><img src="{{asset('assets/images/icons/logo-01.png')}}" alt="IMG-LOGO"></a>
         </div>
 
         <!-- Icon header -->
@@ -85,12 +85,7 @@
     <div class="menu-mobile">
         <ul class="main-menu-m">
             <li>
-                <a href="index.html">Home</a>
-                <ul class="sub-menu-m">
-                    <li><a href="index.html">Homepage 1</a></li>
-                    <li><a href="home-02.html">Homepage 2</a></li>
-                    <li><a href="home-03.html">Homepage 3</a></li>
-                </ul>
+                <a href="/">Home</a>
                 <span class="arrow-main-menu-m">
                     <i class="fa fa-angle-right" aria-hidden="true"></i>
                 </span>
@@ -220,7 +215,7 @@
     <div class="wrap-header-mobile">
         <!-- Logo moblie -->
         <div class="logo-mobile">
-            <a href="index.html"><img src="images/icons/logo-01.png" alt="IMG-LOGO"></a>
+            <a href="/"><img src="{{asset('assets/images/icons/logo-01.png')}}" alt="IMG-LOGO"></a>
         </div>
 
         <!-- Icon header -->
@@ -306,7 +301,7 @@
     <div class="modal-search-header flex-c-m trans-04 js-hide-modal-search">
         <div class="container-search-header">
             <button class="flex-c-m btn-hide-modal-search trans-04 js-hide-modal-search">
-                <img src="images/icons/icon-close2.png" alt="CLOSE">
+                <img src="{{asset('assets/images/icons/icon-close2.png')}}" alt="CLOSE">
             </button>
 
             <form class="wrap-search-header flex-w p-l-15">
